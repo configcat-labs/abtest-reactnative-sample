@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/AndadaPro-Regular.ttf",
+      "sha1": "305e47dab4464e869314ba73f469783434ee7f6d"
+    },
+    {
+      "path": "assets/fonts/Epilogue-SemiBold.ttf",
+      "sha1": "0c3a80fa92b54ddf40dd8bc90446b5a67a4d5382"
+    },
+    {
+      "path": "assets/fonts/Hahmlet-Bold.ttf",
+      "sha1": "ac8ff90015deaed1ce3dfcb3048ff357a7d60150"
+    }
+  ]
+}
