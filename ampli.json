@@ -1,0 +1,11 @@
+{
+  "Zone": "us",
+  "OrgId": "167669",
+  "WorkspaceId": "d537edde-9abf-4122-aae9-1fb6b4c6c113",
+  "SourceId": "13995ce7-1f03-447c-9dc1-2ec286a3ce56",
+  "Runtime": "react-native:javascript-ampli",
+  "Branch": "main",
+  "Version": "1.0.0",
+  "VersionId": "ae09a8a3-e39d-4c52-931f-09f816bbbbcc",
+  "Path": "./src/ampli"
+}

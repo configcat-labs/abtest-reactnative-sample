@@ -18,13 +18,10 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+
+// Import Amplitude
+import {ampli} from './src/ampli';
 
 // Custom components
 
@@ -65,6 +62,9 @@ const App: () => Node = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  // Load Amplitude
+  ampli.load({environment: 'production'});
 
   return (
     <SafeAreaView style={backgroundStyle}>

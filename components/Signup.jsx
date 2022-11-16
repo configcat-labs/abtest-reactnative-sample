@@ -2,12 +2,20 @@ import React from 'react';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
 import {ButtonSolid} from 'react-native-ui-buttons';
 
+// Import Amplitude
+import {ampli} from '../src/ampli';
+
 const Signup = () => {
+
+  function handleSignup() {
+    ampli.userSignup();
+  }
+
   return (
     <View style={styles.signupSection}>
       <View style={styles.signupCard}>
         <TextInput style={styles.emailInput} placeholder='Your E-mail'></TextInput>
-        <ButtonSolid textStyle={styles.signupButtonText} style={styles.signupButton} title="Let's go now !" />
+        <ButtonSolid onPress={handleSignup} textStyle={styles.signupButtonText} style={styles.signupButton} title="Let's go now !" />
         {/* <ButtonSolid textStyle={styles.signupButtonText} style={styles.signupButton} title='Free access !' /> */}
       </View>
     </View>
