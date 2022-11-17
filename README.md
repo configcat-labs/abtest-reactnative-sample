@@ -8,6 +8,22 @@ This is a demo mobile app built with React Native. In the article, it was used i
 
 ## Build & Run
 
+1. Clone this repo
+
+2. Start Metro
+
+```sh
+npx react-native start
+```
+
+3. Start the application
+
+```
+npx react-native run-android
+```
+
+If everything is set up correctly, you should the app running in your Android emulator shortly.
+
 ### Prerequisites
 - [React Native Prerequisites](https://reactnative.dev/docs/environment-setup)
 
