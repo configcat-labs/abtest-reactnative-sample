@@ -4,7 +4,9 @@ Read.me template:
 
 #### [Read the blog post here](https://configcat.com/blog/)
 
-A few words about the contents of the repository. Whats is this application about, what does it demonstrate? Add a backlink to https://configcat.com
+This is a demo mobile app built with React Native. In the article, it was used in a demo A/B test experiment where variation B was released to 10% of users to gather metrics. In the end, I demoed how to compare the metrics from each variation to determine which is better.
+
+![A/B Versions](ab_versions.png)
 
 ## Build & Run
 
@@ -17,7 +19,7 @@ A few words about the contents of the repository. Whats is this application abou
 
 Useful links to technical resources.
 
-- [React Native Documentation](https://reactnative.dev/docs/getting-started) - learn about Next.js features and API.
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - learn about React Native and its API.
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
