@@ -1,6 +1,4 @@
-Read.me template:
-
-# A/B Testing React Native Sample App (WIP)
+# A/B Testing in React Native - Sample App
 
 #### [Read the blog post here](https://configcat.com/blog/)
 
