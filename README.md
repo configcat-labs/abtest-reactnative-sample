@@ -16,7 +16,7 @@ This is a demo mobile app built with React Native. In the article, it was used i
 npx react-native start
 ```
 
-3. Start the application
+3. With Metro running, in a new terminal, start the application
 
 ```
 npx react-native run-android
