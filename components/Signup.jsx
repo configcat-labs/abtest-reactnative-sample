@@ -16,7 +16,7 @@ const Signup = () => {
       <View style={styles.signupCard}>
         <TextInput style={styles.emailInput} placeholder='Your E-mail'></TextInput>
         <ButtonSolid onPress={handleSignup} textStyle={styles.signupButtonText} style={styles.signupButton} title="Let's go now !" />
-        {/* <ButtonSolid textStyle={styles.signupButtonText} style={styles.signupButton} title='Free access !' /> */}
+        {/* <ButtonSolid onPress={handleSignup} textStyle={styles.signupButtonText} style={styles.signupButton} title="Free access !" /> */}
       </View>
     </View>
   )
