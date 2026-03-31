@@ -5,7 +5,6 @@ import Signup from "./components/Signup";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function App() {
-
   return (
     <ConfigCatProvider
       sdkKey="configcat-sdk-1/IOjdCIhn9UyK5ZAfJsGYSw/XhutSyAWn0COXq3uYE4dqA"
