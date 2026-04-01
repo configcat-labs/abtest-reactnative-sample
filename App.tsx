@@ -7,7 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function App() {
   return (
     <ConfigCatProvider
-      sdkKey="configcat-sdk-1/IOjdCIhn9UyK5ZAfJsGYSw/XhutSyAWn0COXq3uYE4dqA"
+      sdkKey="_YOUR_CONFIGCAT_SDK_KEY_HERE_"
       options={{ pollIntervalSeconds: 10 }}
     >
       <SafeAreaView>

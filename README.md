@@ -8,7 +8,6 @@ This is a demo mobile app built with React Native. In the article, it was used t
 
 ## Build & Run
 
-
 ### Prerequisites
 - [React Native Prerequisites](https://reactnative.dev/docs/environment-setup)
 
