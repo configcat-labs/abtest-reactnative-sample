@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# A/B Testing in React Native - Sample App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+#### [Read the blog post here](https://configcat.com/blog/2023/02/14/how-to-implement-ab-testing-in-react-native/)
 
-## Get started
+This is a demo mobile app built with React Native. In the article, it was used to demo an A/B test experiment where variation B was released to 10% of users to gather metrics to determine which version is the best.
 
-1. Install dependencies
+![A/B Versions](ab_versions.png)
 
-   ```bash
-   npm install
-   ```
+## Build & Run
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+### Prerequisites
+- [React Native Prerequisites](https://reactnative.dev/docs/environment-setup)
 
-In the output, you'll find options to open the app in a
+1. Clone this repo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. Launch the app in an Android emulator:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+npm run android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+If everything is set up correctly, you should have the app running in your Android emulator shortly.
 
 ## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Useful links to technical resources.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - learn about React Native and its API.
 
-## Join the community
+[**ConfigCat**](https://configcat.com) also supports many other languages and frameworks. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
-Join our community of developers creating universal apps.
+You can also explore other code samples for various languages, frameworks, and topics here in [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Keep up with ConfigCat on [X](https://x.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
+
+## Author
+
+[Chavez Harris](https://github.com/codedbychavez)
+
+## Contributions
+
+Contributions are welcome!
