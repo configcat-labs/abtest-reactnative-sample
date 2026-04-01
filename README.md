@@ -4,8 +4,6 @@
 
 This is a demo mobile app built with React Native. In the article, it was used to demo an A/B test experiment where variation B was released to 10% of users to gather metrics to determine which version is the best.
 
-![A/B Versions](ab_versions.png)
-
 ## Build & Run
 
 
