@@ -44,7 +44,6 @@ const styles = StyleSheet.create({
   },
 
   signupButtonText: {
-    fontFamily: "Epilogue-SemiBold",
     fontWeight: "600",
     fontSize: 20,
     color: "white",

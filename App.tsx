@@ -1,34 +1,33 @@
-import { StyleSheet, View, StatusBar, ScrollView } from "react-native";
-import { ConfigCatProvider } from "configcat-react";
+import {ScrollView, StatusBar, StyleSheet, View} from "react-native";
+import {ConfigCatProvider} from "configcat-react";
 import Banner from "./components/Banner";
 import Signup from "./components/Signup";
-import { SafeAreaView } from "react-native-safe-area-context";
+import {SafeAreaView} from "react-native-safe-area-context";
 
 export default function App() {
-  return (
-    <ConfigCatProvider
-      sdkKey="_YOUR_CONFIGCAT_SDK_KEY_HERE_"
-      options={{ pollIntervalSeconds: 10 }}
+    return (<ConfigCatProvider
+        sdkKey="YOUR-SDK-KEY"
+        options={{pollIntervalSeconds: 10}}
     >
-      <SafeAreaView>
-        <StatusBar barStyle="dark-content" />
-        <ScrollView>
-          <View style={styles.container}>
-            <Banner />
-            <Signup />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </ConfigCatProvider>
-  );
+        <SafeAreaView style={styles.safeAreaContainer}>
+            <StatusBar barStyle="dark-content"/>
+            <ScrollView contentContainerStyle={styles.container}>
+                <View>
+                    <Banner/>
+                    <Signup/>
+                </View>
+            </ScrollView>
+        </SafeAreaView>
+    </ConfigCatProvider>);
 }
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#fff",
-    flex: 1,
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-  },
+
+    safeAreaContainer: {
+        display: "flex", height: "100%",
+    },
+
+    container: {
+        backgroundColor: "#fff", marginTop: "auto", marginBottom: "auto",
+    },
 });
