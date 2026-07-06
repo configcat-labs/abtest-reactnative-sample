@@ -1,11 +1,18 @@
-import { useFeatureFlag } from "configcat-react";
-import { Text, StyleSheet, Pressable } from "react-native";
 import amplitude from "@/services/amplitude-service";
+import { IUser, useFeatureFlag } from "configcat-react";
+import { Pressable, StyleSheet, Text } from "react-native";
 
 export function SignupButton() {
+  const userId = "1234";
+
+  const user: IUser = {
+    identifier: userId,
+  };
+
   const { value: isCanShowUpdatedButtonTextEnabled } = useFeatureFlag(
     "canShowUpdatedButtonText",
     false,
+    user,
   );
 
   const handleSignupButtonClick = (buttonText: string) => {
