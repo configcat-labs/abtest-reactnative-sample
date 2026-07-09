@@ -3,7 +3,12 @@ import { IUser, useFeatureFlag } from "configcat-react";
 import { Pressable, StyleSheet, Text } from "react-native";
 
 export function SignupButton() {
-  const userId = "1234";
+  // Generate and store a stable anonymous userId for A/B testing.
+  let userId = localStorage.getItem("ab_user_id");
+  if (!userId) {
+    userId = crypto.randomUUID();
+    localStorage.setItem("ab_user_id", userId);
+  }
 
   const user: IUser = {
     identifier: userId,
@@ -15,15 +20,15 @@ export function SignupButton() {
     user,
   );
 
+  const buttonText = isCanShowUpdatedButtonTextEnabled
+    ? "Free Access !"
+    : "Let's go now !";
+
   const handleSignupButtonClick = (buttonText: string) => {
     // Track a button click with optional properties
     const eventProperties = { buttonText: buttonText };
     amplitude.track("SignupButton Clicked", eventProperties);
   };
-
-  const buttonText = isCanShowUpdatedButtonTextEnabled
-    ? "Free Access !"
-    : "Let's go now !";
 
   return (
     <Pressable
